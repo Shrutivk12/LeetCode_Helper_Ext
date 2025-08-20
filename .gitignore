@@ -1,0 +1,13 @@
+# Logs
+*.log
+
+# Node stuff (if you later add dependencies)
+node_modules/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Chrome extension build/output
+*.crx
+*.pem

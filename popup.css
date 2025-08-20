@@ -1,0 +1,80 @@
+/* popup.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9fafb;
+  margin: 0;
+  padding: 16px;
+  min-width: 600px;
+  min-height: 300px;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+  display: block;
+  width: 45%;
+  padding: 10px 12px;
+  margin: 6px 10px;
+  border: none;
+  border-radius: 8px;
+  background: #4f46e5;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background: #4338ca;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+/* select {
+    flex: 1;
+    padding: 5px;
+    font-size: 14px;
+} */
+
+select {
+  flex: 1;
+  padding: 6px 10px;
+  margin: 6px 10px;
+  font-size: 14px;
+  border: 1px solid #d1d5db; /* light gray border */
+  border-radius: 0.5rem;      /* rounded corners */
+  background-color: #fff;     /* white background */
+  color: #374151;             /* gray-700 text */
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+pre#output {
+  margin-top: 16px;
+  padding: 12px;
+  background: #1e293b;
+  color: #f8fafc;
+  border-radius: 8px;
+  font-size: 14px;
+  max-height: 600px;
+  min-height: 200px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
